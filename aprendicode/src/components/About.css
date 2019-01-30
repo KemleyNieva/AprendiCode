@@ -33,6 +33,12 @@
     right: 20px;
     left: 20px;
 }
+
+.line{
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: medium;
+}
 .logo{
     min-height: 20%;
     min-width: 200px;
@@ -47,10 +53,7 @@
     margin-bottom: 30px;
     width: 50%;
 }
-.titlebox{
-    background-color: white;
-    opacity: 0.5;
-}
+
 .title{
     color: #E24E24;
     size: 50px;
@@ -75,6 +78,11 @@
     border-radius: 25px;
 }
 
+.bit{
+    background-color: white;
+    width: 400px;
+    height: 392px;
+}
 
 .subtitle{
     color: #008F95;
@@ -82,4 +90,33 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
+}
+
+.chart{
+    width:50%;
+    height:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.subtext{
+    text-align: center;
+}
+
+.ball{
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.book{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom:20px;
 }
