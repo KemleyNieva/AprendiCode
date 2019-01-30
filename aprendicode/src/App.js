@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Router, Route, browserHistory} from "react-router"; 
 
@@ -12,7 +11,8 @@ class App extends Component {
     return (
       <Router history={browserHistory}>
           <Route path={"/"} component={Home}/>
-          <Route path={"about"} component={About}/>
+          <Route path={"about"} component={About}>
+          </Route>
           <Route path={"login"} component={Login}/>
       </Router>
     );
