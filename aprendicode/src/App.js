@@ -5,6 +5,7 @@ import {Router, Route, browserHistory} from "react-router";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Explore } from "./components/Explore";
+import { Learn } from "./components/Learn";
 import { Login } from "./components/Login";
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
           <Route path={"/"} component={Home}/>
           <Route path={"about"} component={About}/>
           <Route path={"explore"} component = {Explore}/>
+          <Route path={"Learn"} component = {Learn}/>
           <Route path={"login"} component={Login}/>
       </Router>
     );
