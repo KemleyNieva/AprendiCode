@@ -4,6 +4,7 @@ import {Router, Route, browserHistory} from "react-router";
 
 import { Home } from "./components/Home";
 import { About } from "./components/About";
+import { Explore } from "./components/Explore";
 import { Login } from "./components/Login";
 
 class App extends Component {
@@ -11,8 +12,8 @@ class App extends Component {
     return (
       <Router history={browserHistory}>
           <Route path={"/"} component={Home}/>
-          <Route path={"about"} component={About}>
-          </Route>
+          <Route path={"about"} component={About}/>
+          <Route path={"explore"} component = {Explore}/>
           <Route path={"login"} component={Login}/>
       </Router>
     );
