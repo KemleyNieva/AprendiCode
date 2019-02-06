@@ -2,10 +2,11 @@ import React from 'react';
 import './Learn.css';
 import logo from './assests/aprendiCODE.png';
 import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel';
 
-    
-export class Learn extends React.Component{
+
+export class Start extends React.Component{
     render(){
         return(
             <div className="stripes">
@@ -26,6 +27,7 @@ export class Learn extends React.Component{
                         <Card.Text>
                             Something about an introduction
                         </Card.Text>
+                        <Button className="start">Start</Button>
                         </Card.Body>
                     </Card>
                     <br></br>
@@ -37,6 +39,7 @@ export class Learn extends React.Component{
                         <Card.Text>
                             To fill in later 
                         </Card.Text>
+                        <Button className="start">Start</Button>
                         </Card.Body>
                     </Card>
                     <br></br>
@@ -48,6 +51,7 @@ export class Learn extends React.Component{
                         <Card.Text>
                             Something about Functions
                         </Card.Text>
+                        <Button className="start">Start</Button>
                         </Card.Body>
                     </Card>
                     <br></br>
