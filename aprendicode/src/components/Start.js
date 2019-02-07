@@ -1,6 +1,6 @@
 import React from 'react';
-import './Learn.css';
-import logo from './assests/aprendiCODE.png';
+import './Start.css';
+import background from './assests/background.png'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel';
@@ -9,14 +9,9 @@ import Carousel from 'react-bootstrap/Carousel';
 export class Start extends React.Component{
     render(){
         return(
-            <div className="stripes">
-            <div className="outline">
-                <img className = "logo"src={logo}/>
-                <div className="line">
+                <div className="back" >
                 <br></br>
-                <h2 className="title"><b> Aprende más sobre nuestros lecciones / 
-                    <br></br> Learn more about our lesson plans </b></h2>
-
+                <h2 className="title"><b> START </b></h2>
                 <br></br>
                 <br></br>
                 <Carousel>
@@ -58,8 +53,6 @@ export class Start extends React.Component{
                     </Carousel.Item>
                 </Carousel>
                 </div>
-            </div>
-            </div>
         );
     }                    
 }
