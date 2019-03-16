@@ -1,0 +1,5 @@
+@import "@material/top-app-bar/mixins";
+
+.top-app-bar-alternate {
+  @include mdc-top-app-bar-fill-color(#E24E24);
+}
