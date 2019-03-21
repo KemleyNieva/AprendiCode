@@ -1,28 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
+import Login from './Login';
+import Home from './Home';
+import SignUp from './SignUp';
+import * as ROUTES from './constants/Routes';
+import { Link } from 'react-router-dom';
+import {withFirebase} from './constants/Firebase';
+import {withAuthentication } from './constants/Session';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Router>
+  <div>
+    
+  <hr />
 
-export default App;
+    <Route exact path={ROUTES.HOME} component={Home} />
+    <Route path={ROUTES.LOGIN} component={Login} />
+    <Route path = {ROUTES.SIGNUP} component={SignUp}/>
+    </div> 
+  </Router>
+); 
+
+export default withAuthentication(App);
