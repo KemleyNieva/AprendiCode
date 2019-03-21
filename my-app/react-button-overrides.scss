@@ -15,3 +15,13 @@
   @include mdc-button-ink-color(white);
   @include mdc-button-outline-color(#E24E24);
 }
+
+.start-card-button:not(.mdc-button--outlined) {
+  @include mdc-button-container-fill-color(#E24E24);
+  @include mdc-button-ink-color(white);
+}
+
+.start-card-button{
+  @include mdc-button-ink-color(white);
+  @include mdc-button-outline-color(#E24E24);
+}
