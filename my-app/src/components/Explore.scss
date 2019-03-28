@@ -87,3 +87,80 @@
     font-size: 14px;
     text-align: center;
 }
+
+.explore-cards {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.explore-card {
+    $c: &;
+    height: 160px;
+    background-color: #F2D600;
+    width: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: auto;
+    transition: flex-grow 1500ms, height 1500ms, width 1500ms;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.explore-card-box {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.explore-card-img {
+    height: 130px;
+    width: 130px;
+    margin-right: 20px;
+}
+
+.explore-card-imgg {
+    width: 130px;
+    margin: auto;
+}
+
+.explore-card-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Coiny', cursive;
+
+    h2 {
+        font-family: 'Luckiest Guy', cursive;
+    }
+}
+
+.explore-card1 {
+    background-color: #F2D600;
+}
+.explore-card3 {
+    background-color: white;
+}
+.explore-card2 {
+    background-color: #E24E24;
+}
+// .card4 {
+//     background-color: white;
+// }
+// .card5 {
+//     background-color: #F2D600;
+// }
+// .card6 {
+//     background-color: #05BCC4;
+// }
+
+.explore-card:hover {
+    flex-grow: 2;
+    width: 90%;
+    // height: 500px;
+}
