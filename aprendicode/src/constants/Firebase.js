@@ -1,6 +1,7 @@
 import firebase from 'firebase';
 import FirebaseContext, { withFirebase } from './FirebaseContext';
 import 'firebase/auth';
+import 'firebase/database';
 
   // Initialize Firebase
   var config = {
@@ -17,6 +18,7 @@ import 'firebase/auth';
         firebase.initializeApp(config);
 
         this.auth = firebase.auth();
+        this.db = firebase.database();
       }
 
       //Firebase authentication for signing up first time
@@ -35,8 +37,12 @@ import 'firebase/auth';
       //Password reset and password 
       doPasswordReset = email => this.auth.sendPasswordResetEmail(email);
       
-    doPasswordUpdate = password =>
+      doPasswordUpdate = password =>
           this.auth.currentUser.updatePassword(password);
+
+    //Retrieve user by userId or all users from database
+      user = uid => this.db.ref(`users/${uid}`);
+      users = () => this.db.ref('users');
   }
 
 
