@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import { withFirebase } from './constants/Firebase';
-import * as ROUTES from './constants/Routes';
+import { withFirebase } from '../constants/Firebase';
+import * as ROUTES from '../constants/Routes';
 
 const SignUp = () => (
   <div>

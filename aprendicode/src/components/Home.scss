@@ -1,0 +1,64 @@
+@import "@material/react-button/index.scss";
+@import "./react-button-overrides";
+
+.home {
+  display: grid;
+}
+
+.middle {
+  min-height: 550px;
+  background: url("../assets/homepageBackground.png") no-repeat center;
+  background-size: cover;
+}
+
+.vamosAJugar {
+  border-radius: 20px;
+  margin: 160px auto 0 auto;
+  width: 550px;
+  height: 200px;
+  background-color: rgba(0,143,149,.8);
+  text-align: center;
+  padding: 20px;
+}
+
+.vamosAJugar-title {
+  margin: 20px 0 0 0;
+  display: block;
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 60px;
+}
+
+.vamosAJugar-buttons {
+  margin: 50px 0 0px 0;
+}
+
+.vamosAJugar-button {
+  height: 50px !important;
+  width: 160px !important;
+  font-size: 20px !important;
+  margin: 0 30px !important;
+  font-family: 'Luckiest Guy', cursive !important;
+}
+
+.bienvenido {
+  text-align: center;
+  padding: 20px 100px;
+}
+
+.bienvenido-title {
+  color: rgba(0,143,149,1);
+  font-size: 54px;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.bienvenido-logo {
+  height: 40px;
+  padding-left: 5px;
+}
+
+.bienvenido-p {
+  color: rgba(0,143,149,1);
+  font-size: 21px;
+  font-family: 'Coiny', cursive;
+}

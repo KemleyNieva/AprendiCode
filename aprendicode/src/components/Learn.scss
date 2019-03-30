@@ -1,0 +1,145 @@
+@import "@material/react-button/index.scss";
+@import "./react-button-overrides";
+
+
+.learn {
+//   min-height: 550px;
+  background-image: repeating-linear-gradient(to bottom, #5d9634, #5d9634 100px, #538c2b 100px, #538c2b 200px);
+  background-size: cover;
+  padding: 20px 0px;
+}
+
+.learn-section {
+    border: solid white 2px;
+    border-bottom: none;
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    background: url('../assets/learnBackground.png') center no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.learn-section-background {
+    font-family: 'Luckiest Guy', cursive;
+    color: #ecd634;
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 190px 100px;
+}
+
+.last-section {
+    border-bottom: solid white 2px;
+}
+
+.learn-section-flex {
+    display: flex;
+    flex-direction: row;
+    height: 270px;
+    // overflow: hidden;
+}
+
+.learn-section-tittle {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    margin: 10px;
+    color: #ecd634;
+}
+
+.learn-card {
+    bottom: 0px;
+    border-radius: 20px;
+    margin: 5px;
+    width: 550px;
+    height: 500px;
+    background-color: #b8cf7e;
+    text-align: center;
+    flex-grow: 1;
+    overflow: hidden;
+    margin-top: 135px;
+    transition: margin 1500ms;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.learn-card:hover {
+    margin-top: -90px;
+}
+
+.learn-card1 {
+    bottom: 0px;
+    border-radius: 20px;
+    margin: 5px;
+    width: 550px;
+    height: 500px;
+    background-color: #b8cf7e;
+    text-align: center;
+    flex-grow: 1;
+    overflow: hidden;
+    margin-top: -365px;
+    transition: margin 1500ms;
+    position: relative;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.5), 0 6px 6px rgba(0,0,0,0.23);;
+}
+
+.learn-card1:hover {
+    margin-top: -140px;
+}
+
+.learn-card-top {
+    height: 155px;
+    display: grid;
+    background-color: #85A33A;
+    background-size: 100%;
+}
+
+.learn-card-bottom {
+    height: 155px;
+    display: grid;
+    background-color: #85A33A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.learn-card-bottom-h2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.learn-card-img {
+    width: 100%;
+}
+
+.learn-card-img-ball {
+    height: 165px;
+    margin: 10px;
+}
+
+.learn-card-img-book {
+    height: 165px;
+    margin: 10px;
+}
+
+.learn-card-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    margin: 10px;
+    display: grid;
+}
+
+.learn-card-text {
+    margin: 10px;
+    text-align: left;
+    font-family: 'Coiny', cursive;
+}
+
+.subtittle {
+    font-size: 14px;
+    text-align: center;
+}

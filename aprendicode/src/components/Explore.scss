@@ -1,0 +1,163 @@
+@import "@material/react-button/index.scss";
+@import "./react-button-overrides";
+
+
+.about {
+  min-height: 550px;
+  background-image: repeating-linear-gradient(to bottom, #5d9634, #5d9634 100px, #538c2b 100px, #538c2b 200px);
+  background-size: cover;
+  padding: 20px 0px;
+}
+
+.table{
+    background: #05BCC4;
+    text-align: center;
+    width:70%; 
+    margin-top: 3%;
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+.about-section {
+    border: solid white 2px;
+    border-bottom: none;
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.last-section {
+    border-bottom: solid white 2px;
+}
+
+.about-section-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-section-tittle {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    margin: 10px;
+    color: #ecd634;
+}
+
+.card {
+  border-radius: 20px;
+  margin: 5px;
+  width: 550px;
+  min-height: 200px;
+  background-color: #b8cf7e;
+  text-align: center;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img-ball {
+    height: 165px;
+    margin: 10px;
+}
+
+.card-img-book {
+    height: 165px;
+    margin: 10px;
+}
+
+.card-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    margin: 10px;
+    display: grid;
+}
+
+.card-text {
+    margin: 10px;
+    text-align: left;
+    font-family: 'Coiny', cursive;
+}
+
+.subtittle {
+    font-size: 14px;
+    text-align: center;
+}
+
+.explore-cards {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.explore-card {
+    $c: &;
+    height: 160px;
+    background-color: #F2D600;
+    width: 80%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: auto;
+    transition: flex-grow 1500ms, height 1500ms, width 1500ms;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.explore-card-box {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.explore-card-img {
+    height: 130px;
+    width: 130px;
+    margin-right: 20px;
+}
+
+.explore-card-imgg {
+    width: 130px;
+    margin: auto;
+}
+
+.explore-card-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Coiny', cursive;
+
+    h2 {
+        font-family: 'Luckiest Guy', cursive;
+    }
+}
+
+.explore-card1 {
+    background-color: #F2D600;
+}
+.explore-card3 {
+    background-color: white;
+}
+.explore-card2 {
+    background-color: #E24E24;
+}
+// .card4 {
+//     background-color: white;
+// }
+// .card5 {
+//     background-color: #F2D600;
+// }
+// .card6 {
+//     background-color: #05BCC4;
+// }
+
+.explore-card:hover {
+    flex-grow: 2;
+    width: 90%;
+    // height: 500px;
+}

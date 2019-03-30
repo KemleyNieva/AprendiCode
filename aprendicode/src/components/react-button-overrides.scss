@@ -1,0 +1,27 @@
+@import "@material/button/mixins";
+
+.header-button {
+  @include mdc-button-container-fill-color(#008F95);
+  @include mdc-button-ink-color(white);
+  @include mdc-button-outline-color(white);
+}
+
+.vamosAJugar-button:not(.mdc-button--outlined) {
+  @include mdc-button-container-fill-color(#E24E24);
+  @include mdc-button-ink-color(white);
+}
+
+.vamosAJugar-button{
+  @include mdc-button-ink-color(white);
+  @include mdc-button-outline-color(#E24E24);
+}
+
+.start-card-button:not(.mdc-button--outlined) {
+  @include mdc-button-container-fill-color(#E24E24);
+  @include mdc-button-ink-color(white);
+}
+
+.start-card-button{
+  @include mdc-button-ink-color(white);
+  @include mdc-button-outline-color(#E24E24);
+}

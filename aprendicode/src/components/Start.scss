@@ -1,0 +1,152 @@
+@import "@material/react-button/index.scss";
+@import "./react-button-overrides";
+
+
+.home {
+  display: grid;
+}
+
+.start {
+  min-height: 500px;
+  background: url("../assets/startBackground.png") no-repeat center;
+  background-size: cover;
+  padding: 50px;
+}
+
+.start-cards {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.start-card {
+    $c: &;
+    height: 400px;
+    background-color: #F2D600;
+    // max-width: 290px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 16%;
+    margin: auto;
+    transition: flex-grow 1500ms, height 1500ms, width 1500ms;
+
+    &.selected {
+        height: 500px;
+        width: 33%;
+        flex-grow: 3;
+
+        .start-card-title {
+            margin-top: 75px;
+        }
+
+        .start-card-des {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .start-card-button-wrap {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    overflow: hidden;
+}
+
+.card1 {
+    background-color: #F2D600;
+}
+.card2 {
+    background-color: #05BCC4;
+}
+.card3 {
+    background-color: #E24E24;
+}
+.card4 {
+    background-color: white;
+}
+.card5 {
+    background-color: #F2D600;
+}
+.card6 {
+    background-color: #05BCC4;
+}
+
+.start-cards:hover {
+    .start-card {
+        flex-grow: 1;
+        height: 400px;
+        width: 16%;
+
+        .start-card-title {
+            margin-top: 184px;
+        }
+
+        .start-card-des {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        .start-card-button-wrap {
+            transform: scale(0);
+            opacity: 0;
+        }
+    }
+
+    .start-card:hover {
+        flex-grow: 3;
+        width: 33%;
+        height: 500px;
+
+        .start-card-title {
+            margin-top: 75px;
+        }
+
+        .start-card-des {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .start-card-button-wrap {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+}
+
+.start-card-title {
+    max-width: 100px;
+    display: grid;
+    font-family: 'Luckiest Guy', cursive !important;
+    margin: auto;
+    text-align: center;
+    margin-top: 184px;
+    transition: margin 1500ms;
+}
+
+.start-card-des {
+    max-width: 200px;
+    display: grid;
+    font-family: 'coiny', cursive !important;
+    margin: auto;
+    margin-top: 50px;
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 1500ms, opacity 750ms;
+}
+
+.start-card-button {
+    height: 50px !important;
+    width: 160px !important;
+    font-size: 20px !important;
+    font-family: 'Luckiest Guy', cursive !important;
+}
+
+.start-card-button-wrap {
+    width: 160px;
+    margin: auto;
+    margin-top: 50px;
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 1500ms, opacity 750ms;
+}

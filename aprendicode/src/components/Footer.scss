@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    height: 115px;
+    background-color: #E24E24;
+    padding: 20px 70px;
+  }
+  
+  .footer-spacer {
+  flex-grow: 2;
+  }
+  
+  .footer-contact {
+    margin: 10px;
+    flex-grow: 1;
+    max-width: 300px;
+    color: white;
+  }
+  
+  .footer-about {
+    margin: 10px;
+    flex-grow: 1;
+    color: white;
+  }
+  
+  .footer-social {
+    flex-grow: 1;
+    text-align: right;
+    padding-top: 33px;
+  }
+  
+  .footer-title {
+    font-family: 'Luckiest Guy', cursive;
+  }
+  
+  .footer-logo {
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  

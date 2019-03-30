@@ -1,0 +1,77 @@
+@import "@material/react-button/index.scss";
+@import "./react-button-overrides";
+
+
+.about {
+  min-height: 550px;
+  background-image: repeating-linear-gradient(to bottom, #5d9634, #5d9634 100px, #538c2b 100px, #538c2b 200px);
+  background-size: cover;
+  padding: 20px 0px;
+}
+
+.about-section {
+    border: solid white 2px;
+    border-bottom: none;
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.last-section {
+    border-bottom: solid white 2px;
+}
+
+.about-section-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-section-tittle {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    margin: 10px;
+    color: #ecd634;
+}
+
+.card {
+  border-radius: 20px;
+  margin: 5px;
+  width: 550px;
+  min-height: 200px;
+  background-color: #b8cf7e;
+  text-align: center;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img-ball {
+    height: 165px;
+    margin: 10px;
+}
+
+.card-img-book {
+    height: 165px;
+    margin: 10px;
+}
+
+.card-title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+    margin: 10px;
+    display: grid;
+}
+
+.card-text {
+    margin: 10px;
+    text-align: left;
+    font-family: 'Coiny', cursive;
+}
+
+.subtittle {
+    font-size: 14px;
+    text-align: center;
+}
