@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import SignOutButton from './SignOut';
 import { AuthUserContext } from '../constants/Session';
 import { withFirebase } from '../constants/Firebase';
 
-import Button from '@material/react-button';
 import './Home.scss';
 import logoColor from '../assets/aprendiCODEColor.png';
 
@@ -47,8 +45,11 @@ class Home extends Component {
           <div className="vamosAJugar">
             <span className="vamosAJugar-title">¡VAMOS A JUGAR!</span>
             <div className="vamosAJugar-buttons">
-              <Button className="vamosAJugar-button mdc-button--outlined">Regístrate</Button>
-              <Button className="vamosAJugar-button">Iniciar</Button>
+              <AuthUserContext.Consumer>
+                {authUser =>
+                  authUser ? <VamosAJugarAuth /> : <VamosAJugarNonAuth />
+                }
+              </AuthUserContext.Consumer>
             </div>
           </div>
         </div>
@@ -81,16 +82,16 @@ class Home extends Component {
   }
 }
 
-const HomeAuth = () => (
+const VamosAJugarAuth = () => (
   <div>
-    <h1>Home Signed In</h1>
-    <li><SignOutButton /></li>
+    <Link to="/start" className="header-button-link"><div className="vamosAJugar-button empieza">Empieza</div></Link>
   </div>
 );
 
-const HomeNonAuth = () => (
+const VamosAJugarNonAuth = () => (
   <div>
-    <h1>Home Not Signed In</h1>
+    <Link to="/signup" className="header-button-link"><div className="vamosAJugar-button mdc-button--outlined">Regístrate</div></Link>
+    <Link to="/login" className="header-button-link"><div className="vamosAJugar-button">Iniciar</div></Link>
   </div>
 );
 

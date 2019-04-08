@@ -5,8 +5,6 @@ import {
   Route,
 } from 'react-router-dom';
 import * as ROUTES from '../constants/Routes';
-import { Link } from 'react-router-dom';
-import { withFirebase } from '../constants/Firebase';
 import { withAuthentication } from '../constants/Session';
 
 import Home from './Home';
@@ -23,7 +21,6 @@ import {Lesson} from './Lesson'
 const App = () => (
   <Router>
     <Header />
-
     <Route exact path={ROUTES.HOME} component={Home} />
     <Route path={ROUTES.LOGIN} component={Login} />
     <Route path={ROUTES.SIGNUP} component={SignUp} />
@@ -32,7 +29,6 @@ const App = () => (
     <Route path={ROUTES.LEARN} component={Learn} />
     <Route path={ROUTES.START} component={Start} />
     <Route path={ROUTES.LESSON} component={Lesson} />
-
     <Footer />
   </Router>
 );

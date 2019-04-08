@@ -16,7 +16,7 @@ export class About extends React.Component {
                     <h2 className="about-section-tittle">Who We Are</h2>
                     <div className="about-section-flex">
                         <div className="card">
-                            <img className="card-img" src={Kemley} />
+                            <img className="card-img" src={Kemley} alt="img"/>
                             <span className="card-title">Kemley Nieva</span>
                             <p className="card-text"> "I was born in New York, but raised in Miami,FL. My family is from Colombia.
                                             Currently, I attend the University of Florida as a fourth year Computer Science student with a minor in Busniess Administration.
@@ -28,7 +28,7 @@ export class About extends React.Component {
                                         Después de graduarme, me mudaré a Seattle para trabajar con Microsoft como Project Manager."</p>
                         </div>
                         <div className="card">
-                            <img className="card-img" src={Esteban} />
+                            <img className="card-img" src={Esteban} alt="img"/>
                             <span className="card-title">Esteban Gonzalez</span>
                             <p className="card-text"> "I was raised in Miami,FL. My family is from Colombia.
                                             Currently, I attend the University of Florida as a fourth year Computer Science student with a minor in Digital Arts and Sciences.
@@ -42,7 +42,7 @@ export class About extends React.Component {
                                         ingeniero de software."</p>
                         </div>
                         <div className="card">
-                            <img className="card-img" src={Sabrina} />
+                            <img className="card-img" src={Sabrina} alt="img"/>
                             <span className="card-title">Sabrina Vega</span>
                             <p className="card-text"> "I was raised in Gainesville, FL,  but my family is from Colombia.
                                             Currently, I attend the University of Florida as a fourth year Computer Science student with a minor in Digital Arts and Sciences.
@@ -61,12 +61,12 @@ export class About extends React.Component {
                     <h2 className="about-section-tittle">What We Do</h2>
                     <div className="about-section-flex">
                         <div className="card">
-                            <img className="card-img-ball" src={ball} />
+                            <img className="card-img-ball" src={ball} alt="img"/>
                             <span className="card-title">FUN AND EDUCATION</span>
                             <p className="card-text">It doesn't need to be proven science to know that children love to play. That sense of playful is no different for children in other places. Therefore, in our mission to spread STEM to children all over, we knew that beyond all our product had to be fun. By feeling that they are playing in an intense soccer game, children will continue to learn coding esstientals to win the game. More about the basics and the game can be found on the learn page.</p>
                         </div>
                         <div className="card">
-                            <img className="card-img-book" src={book} />
+                            <img className="card-img-book" src={book} alt="img"/>
                             <span className="card-title">DIVERSIÓN Y EDUCACIÓN</span>
                             <p className="card-text"> Es obvio que los niños les encanta jugar. Esa sensación de juego no es diferente para los niños de otros lugares. Por lo tanto, en nuestra misión de enseñar STEM a los niños de todo el mundo, sabíamos que sobre todo nuestro producto tenía que ser divertido. Al sentir que están jugando un partido de fútbol, los niños continuarán aprendiendo técnicas de codificación para ganar. Mas sobre las tecnicas y el juego se puede encontrad en la pagia de learn.</p>
                         </div>
@@ -76,7 +76,7 @@ export class About extends React.Component {
                     <h2 className="about-section-tittle">Why We Do It</h2>
                     <div className="about-section-flex">
                         <div className="card">
-                            <img className="card-img-ball" src={chart} />
+                            <img className="card-img-ball" src={chart} alt="img"/>
                             <p className="card-text subtittle">Image proved by  US Equal Employment Opportunity Commission (EEOC).</p>
                             <p className="card-text">In the world of technology, there is s huge underrepresentation of hispanics.
                                         Actually only 14% of the workforce in the United State is Hispanic even though Hispanics are the second largest ethics group in the US.
