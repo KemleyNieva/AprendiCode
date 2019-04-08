@@ -1,5 +1,3 @@
-@import "@material/react-button/index.scss";
-@import "./react-button-overrides";
 
 .home {
   display: grid;
@@ -25,7 +23,7 @@
   margin: 20px 0 0 0;
   display: block;
   color: white;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: Luckiest Guy, cursive !important;
   font-size: 60px;
 }
 
