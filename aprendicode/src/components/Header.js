@@ -19,15 +19,15 @@ export class Header extends React.Component {
                 <div className="header-buttons">
                     <Link to="/learn" className="header-button-link"><div className="header-button">
                         <img className="header-button-img" src={learnImg} alt="logo"></img>
-                        <span className="header-button-text">Learn</span>
+                        <span className="header-button-text">Aprender</span>
                     </div></Link>
                     <Link to="/explore" className="header-button-link"><div className="header-button">
                         <img className="header-button-img" src={exploreImg} alt="logo"></img>
-                        <span className="header-button-text">Explore</span>
+                        <span className="header-button-text">Explorar</span>
                     </div></Link>
                     <Link to="/about" className="header-button-link"><div className="header-button">
                         <img className="header-button-img" src={aboutImg} alt="logo"></img>
-                        <span className="header-button-text">About</span>
+                        <span className="header-button-text">Acerca De</span>
                     </div></Link>
                     <AuthUserContext.Consumer>
                         {authUser =>
