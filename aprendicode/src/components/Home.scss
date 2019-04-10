@@ -32,9 +32,9 @@
 }
 
 .vamosAJugar-button {
-  height: 50px !important;
-  width: 160px !important;
-  font-size: 20px !important;
+  height: 65px !important;
+  width: 200px !important;
+  font-size: 30px !important;
   margin: 0 30px !important;
   font-family: 'Luckiest Guy', cursive !important;
 }
@@ -65,4 +65,15 @@
   color: rgba(0,143,149,1);
   font-size: 21px;
   font-family: 'Coiny', cursive;
+}
+
+.start-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.start-button-link {
+  text-decoration: none;
+  margin: auto;
 }

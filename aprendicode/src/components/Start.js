@@ -31,13 +31,13 @@ export class Start extends React.Component {
                             <span className="start-card-title">Partido 1: For Loops</span>
                             <span className="start-card-des"> Preparate para aprender sobre no se que y no se como!
                                 Esta tema es muy importante para saber para continuar.</span>
-                            <div className="start-card-button-wrap"><Link to="/lesson" className="header-button-link"><div className="start-card-button" onClick={this.reloadDataCamp}>Iniciar</div></Link></div>
+                            <div className="start-card-button-wrap"><Link to="/lesson11" className="header-button-link"><div className="start-card-button" onClick={this.reloadDataCamp}>Iniciar</div></Link></div>
                         </div>
                         <div className="start-card card2">
-                            <span className="start-card-title">Partido 1: For Loops</span>
+                            <span className="start-card-title">Partido 2: Strings</span>
                             <span className="start-card-des"> Preparate para aprender sobre no se que y no se como!
                                 Esta tema es muy importante para saber para continuar.</span>
-                            <div className="start-card-button-wrap"><div className="start-card-button">Iniciar</div></div>
+                            <div className="start-card-button-wrap"><Link to="/lesson21" className="header-button-link"><div className="start-card-button" onClick={this.reloadDataCamp}>Iniciar</div></Link></div>
                         </div>
                         <div className="start-card card3">
                             <span className="start-card-title">Partido 1: For Loops</span>
