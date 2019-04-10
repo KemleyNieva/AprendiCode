@@ -16,7 +16,7 @@ import {About} from './About'
 import {Explore} from './Explore'
 import {Learn} from './Learn'
 import {Start} from './Start'
-import {Lesson} from './Lesson'
+import Lesson from './Lesson'
 
 const App = () => (
   <Router>
