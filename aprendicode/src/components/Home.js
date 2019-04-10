@@ -84,14 +84,14 @@ class Home extends Component {
 
 const VamosAJugarAuth = () => (
   <div className="start-buttons">
-    <Link to="/start" className="start-button-link"><div className="vamosAJugar-button empieza">Empieza</div></Link>
+    <Link to="/start" className="start-button-link"><div className="vamosAJugar-button filled"><span className="start-button-text">Empieza</span></div></Link>
   </div>
 );
 
 const VamosAJugarNonAuth = () => (
   <div className="start-buttons">
-    <Link to="/signup" className="start-button-link"><div className="vamosAJugar-button registrate">Regístrate</div></Link>
-    <Link to="/login" className="start-button-link"><div className="vamosAJugar-button iniciar">Iniciar</div></Link>
+    <Link to="/signup" className="start-button-link"><div className="vamosAJugar-button outlined"><span className="start-button-text">Regístrate</span></div></Link>
+    <Link to="/login" className="start-button-link"><div className="vamosAJugar-button filled"><span className="start-button-text">Iniciar</span></div></Link>
   </div>
 );
 
