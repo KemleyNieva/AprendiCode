@@ -28,7 +28,7 @@
 }
 
 .header-buttons {
-  padding: 7px 0 0 0;
+  padding: 0px 0 0 0;
   display: flex;
   flex-direction: row;
 }
@@ -43,6 +43,19 @@
 
 .header-button-link {
   text-decoration: none;
+  margin: auto;
+  border: solid white 2px;
+  margin-right: 5px;
+  color: white;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgba(0,143,149,1);
+}
+
+.header-login-start {
+  display: flex;
+  flex-direction: row;
 }
 
 .header-button-text {

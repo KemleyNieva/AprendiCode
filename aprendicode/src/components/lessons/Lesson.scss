@@ -37,7 +37,6 @@
 .lesson-sublessons {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     // width: 200px;
     min-width: 15%;
 }
@@ -47,7 +46,7 @@
     text-align: right;
     padding: 10px;
     background-color: #008F95;
-    border-bottom: solid 1px white;
+    // border-bottom: solid 1px white;
     font-family: 'Luckiest Guy', cursive !important;
     color: white;
     cursor: pointer;
@@ -92,4 +91,24 @@
     background-color: rgb(214, 237, 245);
 }
 
-  
+.lessons-link {
+    text-decoration: none;
+    background-color: #008F95;
+    flex-grow: 1;
+    border-bottom: solid 1px white;
+
+    &.last-sublesson {
+        border-bottom: none;
+    }
+    &.selected {
+        background-color: #E14E24;
+    }
+
+    &:hover {
+        background-color: rgb(3, 181, 187);
+
+        &.selected {
+            background-color: rgb(250, 95, 52);
+        }
+    }
+}
