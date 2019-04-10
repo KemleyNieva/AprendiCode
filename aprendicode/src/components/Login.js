@@ -4,11 +4,12 @@ import { SignUpLink } from './SignUp';
 import { withFirebase } from '../constants/Firebase';
 import * as ROUTES from '../constants/Routes';
 
+import './Login.scss';
+import logoColor from '../assets/aprendiCODEColor.png';
+
 const SignInPage = () => (
   <div>
-    <h1>SignIn</h1>
-    <SignInForm />
-    <SignUpLink />
+   <SignInForm/>
   </div>
 );
 
@@ -51,27 +52,42 @@ class SignInFormBase extends Component {
     const isInvalid = password === '' || email === '';
 
     return (
-      <form onSubmit={this.onSubmit}>
+      <div className="Login">
+        <div className="middleLogin">
+          <div className="vamosAJugarLogin">
+            <div className="loginBox">
+          <span className="login-title"><img className="login-logo" src={logoColor} alt="logo"></img></span>
+          </div>
+          <form onSubmit={this.onSubmit}>
         <input
+          id ="emailBox"
           name="email"
           value={email}
           onChange={this.onChange}
           type="text"
           placeholder="Email Address"
         />
+        <p></p>
         <input
+          id= "emailBox"
           name="password"
           value={password}
           onChange={this.onChange}
           type="password"
           placeholder="Password"
         />
+        <p></p>
         <button disabled={isInvalid} type="submit">
           Sign In
         </button>
 
         {error && <p>{error.message}</p>}
+
+        <SignUpLink />
       </form>
+          </div>
+        </div>
+      </div>
     );
   }
 }
