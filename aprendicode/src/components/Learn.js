@@ -16,7 +16,7 @@ export class Learn extends React.Component {
                         <div className="learn-card1">
                             <p className="learn-card-text" style={{marginTop: 160 +"px"}}> Los estrings de tipo variable, como vimos antes, contienen principalmente palabras. Gracias al práctico lenguaje Python y al codificador anterior, los estrings vienen con una serie de comandos o acciones que pueden ayudar a facilitar la comunicación.</p>
                             <div className="learn-card-bottom">
-                                <h2 className="learn-card-bottom-h2">Strings</h2>
+                                <h2 className="learn-card-bottom-h2">Estrings</h2>
                             </div>
                         </div>
                         <div className="learn-card1">
@@ -29,7 +29,7 @@ export class Learn extends React.Component {
                     <div className="learn-section-flex">
                         <div className="learn-card">
                             <div className="learn-card-top">
-                                <h2 className="learn-card-top-h2">Arrays</h2>
+                                <h2 className="learn-card-top-h2">Lista, Diccionarios y Matrices</h2>
                             </div>
                             <p className="learn-card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
