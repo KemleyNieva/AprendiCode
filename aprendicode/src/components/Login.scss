@@ -1,0 +1,46 @@
+
+.Login {
+    display: grid;
+  }
+  
+  .middleLogin {
+    min-height: 750px;
+    background: url("../assets/LoginBackground.png") no-repeat center;
+    background-size: cover;
+  }
+  
+  .vamosAJugarLogin {
+    border-radius: 20px;
+    margin: 70px auto 0 100px;
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.4);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .login-title {
+    color: rgba(0,143,149,1);
+    font-size: 54px;
+    font-family: 'Luckiest Guy', cursive;
+  }
+
+  
+.loginBox {
+    text-align: center;
+    padding: 20px 100px;
+  }
+
+  .login-logo {
+    align-self: center;
+    height: 50px;
+  }
+
+  #emailBox {
+    border-radius: 25px;
+    border: 2px solid #E24E24;
+    padding: 20px; 
+    width: 300px;
+    height: 15px;   
+  }
