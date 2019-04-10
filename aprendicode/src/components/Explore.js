@@ -22,7 +22,7 @@ export class Explore extends React.Component {
                                 <div className="explore-card-info">
                                     <h2>Code Monkey</h2>
                                     <a href="https://www.playcodemonkey.com">https://www.playcodemonkey.com</a>
-                                    <p>Online game in ENGLISH ONLY for children to learn to code in a easy manner.</p>
+                                    <p>Este juego le ensena a codicar a los niños en una manera facil. <b>Inglés solamente!</b> </p>
                                 </div>
                             </div>
                         </div>
@@ -34,7 +34,7 @@ export class Explore extends React.Component {
                                 <div className="explore-card-info">
                                     <h2>Scratch</h2>
                                     <a href="https://scratch.mit.edu">https://scratch.mit.edu</a>
-                                    <p>A  Downloadable video game avaliable in spanish for children.</p>
+                                    <p>Un videojuego <b>descargable</b> disponible en español para niños..</p>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@ export class Explore extends React.Component {
                                 <div className="explore-card-info">
                                     <h2>Tynker</h2>
                                     <a href="https://www.tynker.com">https://www.tynker.com</a>
-                                    <p>A interactive video game for children with lesson plans.</p>
+                                    <p>Un videojuego interactivo para niños con planes de lecciones.  <b>Inglés solamente!</b> </p>
                                 </div>
                             </div>
                         </div>

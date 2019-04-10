@@ -10,12 +10,12 @@ export class Footer extends React.Component {
         return (
             <div className="footer">
                 <div className="footer-contact">
-                    <span className="footer-title">Contact Us</span>
-                    <p>For more information, contact us at aprendiCODE@gmail.com</p>
+                    <span className="footer-title">Contáctenos</span>
+                    <p>Para mas information, mandanos un correo a aprendiCODE@gmail.com</p>
                 </div>
                 <div className="footer-about">
-                    <span className="footer-title">About</span>
-                    <p>This is our senior project</p>
+                    <span className="footer-title">Que es aprendiCode</span>
+                    <p> Un programa de codificar para ninos que hablan español. </p>
                 </div>
                 <div className="footer-spacer"></div>
                 <div className="footer-social">
