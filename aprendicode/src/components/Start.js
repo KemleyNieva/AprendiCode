@@ -43,11 +43,11 @@ export class Start extends React.Component {
                             <div className="start-card-button-wrap"><div className="start-card-button">Iniciar</div></div>                        </div>
                         <div className="start-card card4">
                             <span className="start-card-title">Partido 4: Lista, Diccionarios, y Matrices</span>
-                            <span className="start-card-des"> Como en el español, el mundo de condicar tambien tiene diccionarios. Pero en este partido vamos a hablar como hacer un diccionario, listas y matrices</span>
+                            <span className="start-card-des"> En este partido vamos a hablar como hacer un diccionario, listas y matrices.</span>
                             <div className="start-card-button-wrap"><div className="start-card-button">Iniciar</div></div>                        </div>
                         <div className="start-card card5">
                             <span className="start-card-title">Partido 5: Vueltas</span>
-                            <span className="start-card-des"> Vamos a aprender como hacer un function por certo tiempos .</span>
+                            <span className="start-card-des"> Vamos a aprender como hacer un function por certo tiempos.</span>
                             <div className="start-card-button-wrap"><div className="start-card-button">Iniciar</div></div>                        </div>
                         <div className="start-card card6">
                             <span className="start-card-title">Partido 6: Funciones</span>
