@@ -78,7 +78,7 @@
 }
 
 .lesson-info-text {
-    overflow: scroll;
+    overflow-y: scroll;
 
     & p {
         margin: 5px 0 !important;
