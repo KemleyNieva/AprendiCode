@@ -45,20 +45,20 @@
     flex-grow: 1;
     text-align: right;
     padding: 10px;
-    background-color: #008F95;
+    // background-color: #008F95;
     // border-bottom: solid 1px white;
     font-family: 'Luckiest Guy', cursive !important;
     color: white;
     cursor: pointer;
     &.selected {
-        background-color: #E14E24;
+        // background-color: #E14E24;
     }
 
     &:hover {
-        background-color: rgb(3, 181, 187);
+        // background-color: rgb(3, 181, 187);
 
         &.selected {
-            background-color: rgb(250, 95, 52);
+            // background-color: rgb(250, 95, 52);
         }
     }
 }

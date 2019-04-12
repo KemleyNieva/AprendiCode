@@ -27,8 +27,8 @@ export class Lesson22 extends React.Component {
                     <div className="lesson boxes">
                         <div className="lesson-box top">
                             <div className="lesson-sublessons">
-                                <Link to="/lesson21" className="lessons-link selected"><div className="sublesson selected" onClick={this.reloadDataCamp}>Mayúscula y Minúscula</div></Link>
-                                <Link to="/lesson22" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>EmpiezaCon y TerminaCon</div></Link>
+                                <Link to="/lesson21" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Mayúscula y Minúscula</div></Link>
+                                <Link to="/lesson22" className="lessons-link selected"><div className="sublesson selected" onClick={this.reloadDataCamp}>EmpiezaCon y TerminaCon</div></Link>
                                 <Link to="/lesson23" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Largo</div></Link>
                                 <Link to="/lesson24" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Index</div></Link>
                                 <Link to="/lesson25" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Posición</div></Link>

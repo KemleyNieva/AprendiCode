@@ -33,7 +33,7 @@ export class Lesson17 extends React.Component {
                                 <Link to="/lesson14" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Variables</div></Link>
                                 <Link to="/lesson15" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Matemáticas</div></Link>
                                 <Link to="/lesson16" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Actualizar Variables</div></Link>
-                                <Link to="/lesson17" className="lessons-link last-sublesson"><div className="sublesson" onClick={this.reloadDataCamp}>Todo junto</div></Link>
+                                <Link to="/lesson17" className="lessons-link last-sublesson selected"><div className="sublesson" onClick={this.reloadDataCamp}>Todo junto</div></Link>
                             </div>
                             <div className="lesson-info">
                                 <h3 className="lesson-info-title">Lección 1-7</h3>

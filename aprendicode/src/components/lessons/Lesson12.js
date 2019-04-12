@@ -28,7 +28,7 @@ export class Lesson12 extends React.Component {
                         <div className="lesson-box top">
                             <div className="lesson-sublessons">
                             <Link to="/lesson11" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>¡Hola Mundo!</div></Link>
-                                <Link to="/lesson12" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Declaraciones de error</div></Link>
+                                <Link to="/lesson12" className="lessons-link selected"><div className="sublesson" onClick={this.reloadDataCamp}>Declaraciones de error</div></Link>
                                 <Link to="/lesson13" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Comentarios</div></Link>
                                 <Link to="/lesson14" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Variables</div></Link>
                                 <Link to="/lesson15" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Matemáticas</div></Link>
