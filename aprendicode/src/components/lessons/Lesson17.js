@@ -29,27 +29,27 @@ export class Lesson17 extends React.Component {
                             <div className="lesson-sublessons">
                                 <Link to="/lesson11" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>¡Hola Mundo!</div></Link>
                                 <Link to="/lesson12" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Declaraciones de error</div></Link>
-                                <Link to="/lesson13" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Variables</div></Link>
-                                <Link to="/lesson14" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Matemáticas</div></Link>
-                                <Link to="/lesson15" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Actualizar Variables</div></Link>
-                                <Link to="/lesson16" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Comentarios</div></Link>
-                                <Link to="/lesson17" className="lessons-link selected last-sublesson"><div className="sublesson selected" onClick={this.reloadDataCamp}>Todo junto</div></Link>
+                                <Link to="/lesson13" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Comentarios</div></Link>
+                                <Link to="/lesson14" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Variables</div></Link>
+                                <Link to="/lesson15" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Matemáticas</div></Link>
+                                <Link to="/lesson16" className="lessons-link"><div className="sublesson" onClick={this.reloadDataCamp}>Actualizar Variables</div></Link>
+                                <Link to="/lesson17" className="lessons-link last-sublesson"><div className="sublesson" onClick={this.reloadDataCamp}>Todo junto</div></Link>
                             </div>
                             <div className="lesson-info">
-                                <h3 className="lesson-info-title">LEARN - Lección 1-7</h3>
+                                <h3 className="lesson-info-title">Lección 1-7</h3>
                                 <div id="lesson-info-data">
                                 <div className="lesson-info-text">
-                                    <p>Empecemos presentándonos. Para hablar con la computadora y ver lo que dice, debe imprimir or print. Piense en print como imprimir algo en la pantalla.</p>
-                                    <p>Si queremos decir "Hola mundo", tenemos que escribir: print "¡Hola mundo!"</p>
-                                    <p>Lo que queremos decir debe estar entre comillas para que la computadora pueda diferenciar la frase de la acción.</p>
-                                    <p>Ahora preséntate al equipo.</p>
+                                    <p>¡Felicidades! Has hecho un gran trabajo en el campo de entrenamiento para el equipo Tech. Al final de este largo día, es hora de hablar con el entrenador.</p>
                                 </div>
                                 </div>
                             </div>
                             <div className="lesson-intructions">
-                                <h3 className="lesson-info-title">INSTRUCTIONS</h3>
+                                <h3 className="lesson-info-title">INSTRUCCIONES</h3>
                                 <ol>
-                                    <li>Cambia la informacion entre las comillas (" ") a tu nombre.</li>
+                                    <li>Empieza por decendo Hola.</li>
+                                    <li>Ahora está preguntando qué número escogiste(19) y tu posición(portedo)! Guarda esos en dos variables llamadas número y posición.</li>
+                                    <li>Bien, te dice que ahora que eres parte del equipo, tendrá que pedir más botines. Si necesita dos pares para el total de 17 jugadores en el equipo, calcule la cantidad de botines que necesita y guárdelo en num_de_botines.</li>
+                                    <li>Luego comenta el color de tu camiseta debajo</li>
                                 </ol>
                             </div>
                         </div>
@@ -57,30 +57,27 @@ export class Lesson17 extends React.Component {
                             <div data-datacamp-exercise data-lang="python">
                                 <code data-type="pre-exercise-code">
                                     # This will get executed each time the exercise gets initialized
-                                    b = 6
                                 </code>
                                 <code data-type="sample-code">
-                                import numpy as np <br></br>
-                                import matplotlib.pyplot as plt <br></br>
-
-                                x = np.arange(0, 5, 0.1); <br></br>
-                                y = np.sin(x) <br></br>
-                                plt.plot(x, y) <br></br>
-                                plt.show() <br></br>
-                            
+                                
                                 </code>
                                 <code data-type="solution">
 
-                                a = 5 <br></br>
-                                print(a)
+                                print("Hola")<br></br>
+                                numero = 19 <br></br>
+                                posicion = "portedo" <br></br>
+                                num_de_botines = 17*2 <br></br>
+                                #blue
                                 
                                 </code>
                                 <code data-type="sct">
-                                test_object("a") <br></br>
                                 test_function("print") <br></br>
-                                success_msg("Great job!") <br></br>
+                                test_object("numero") <br></br>
+                                test_object("posicion") <br></br>
+                                test_object("num_de_botines") <br></br>
+                                success_msg("¡Súper!")<br></br>
                                 </code>
-                                <div data-type="hint">Use the assignment operator (<code>=</code>) to create the variable <code>a</code>.</div>
+                                <div data-type="hint">Aja cada action en una linea nueva.</div>
                             </div>
                         </div>
                     </div>

@@ -15,7 +15,7 @@ export class Footer extends React.Component {
                 </div>
                 <div className="footer-about">
                     <span className="footer-title">Que es aprendiCode</span>
-                    <p> Un programa de codificar para ninos que hablan español. </p>
+                    <p> Un programa de codificar para niños que hablan español. </p>
                 </div>
                 <div className="footer-spacer"></div>
                 <div className="footer-social">

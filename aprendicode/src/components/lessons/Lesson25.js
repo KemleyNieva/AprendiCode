@@ -36,20 +36,17 @@ export class Lesson25 extends React.Component {
                                 <Link to="/lesson27" className="lessons-link last-sublesson"><div className="sublesson" onClick={this.reloadDataCamp}>Todo junto</div></Link>
                             </div>
                             <div className="lesson-info">
-                                <h3 className="lesson-info-title">LEARN - Lección 2-5</h3>
+                                <h3 className="lesson-info-title">Lección 2-5</h3>
                                 <div id="lesson-info-data">
                                 <div className="lesson-info-text">
-                                    <p>Empecemos presentándonos. Para hablar con la computadora y ver lo que dice, debe imprimir or print. Piense en print como imprimir algo en la pantalla.</p>
-                                    <p>Si queremos decir "Hola mundo", tenemos que escribir: print "¡Hola mundo!"</p>
-                                    <p>Lo que queremos decir debe estar entre comillas para que la computadora pueda diferenciar la frase de la acción.</p>
-                                    <p>Ahora preséntate al equipo.</p>
+                                    <p>Si quieres hacer lo contrario y ver qué letra está en la posición 7.</p>
                                 </div>
                                 </div>
                             </div>
                             <div className="lesson-intructions">
-                                <h3 className="lesson-info-title">INSTRUCTIONS</h3>
+                                <h3 className="lesson-info-title">INSTRUCCIONES</h3>
                                 <ol>
-                                    <li>Cambia la informacion entre las comillas (" ") a tu nombre.</li>
+                                    <li>Ejecute el codego.</li>
                                 </ol>
                             </div>
                         </div>
@@ -57,30 +54,20 @@ export class Lesson25 extends React.Component {
                             <div data-datacamp-exercise data-lang="python">
                                 <code data-type="pre-exercise-code">
                                     # This will get executed each time the exercise gets initialized
-                                    b = 6
                                 </code>
                                 <code data-type="sample-code">
-                                import numpy as np <br></br>
-                                import matplotlib.pyplot as plt <br></br>
+                                letras = 'abcdefghijk' <br></br>
+                                print(letras[7]) <br></br>
 
-                                x = np.arange(0, 5, 0.1); <br></br>
-                                y = np.sin(x) <br></br>
-                                plt.plot(x, y) <br></br>
-                                plt.show() <br></br>
                             
                                 </code>
                                 <code data-type="solution">
-
-                                a = 5 <br></br>
-                                print(a)
                                 
                                 </code>
                                 <code data-type="sct">
-                                test_object("a") <br></br>
-                                test_function("print") <br></br>
-                                success_msg("Great job!") <br></br>
+                                success_msg("¡Súper!") <br></br>
                                 </code>
-                                <div data-type="hint">Use the assignment operator (<code>=</code>) to create the variable <code>a</code>.</div>
+                                <div data-type="hint">Ejecute sin cambiar</div>
                             </div>
                         </div>
                     </div>

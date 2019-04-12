@@ -34,7 +34,7 @@ export class Explore extends React.Component {
                                 <div className="explore-card-info">
                                     <h2>Scratch</h2>
                                     <a href="https://scratch.mit.edu">https://scratch.mit.edu</a>
-                                    <p>Un videojuego <b>descargable</b> disponible en español para niños..</p>
+                                    <p>Un videojuego <b>descargable</b> disponible en español para niños.</p>
                                 </div>
                             </div>
                         </div>
