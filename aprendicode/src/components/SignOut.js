@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 import './Header.scss';
 const SignOutButton = ({ firebase }) => (
-  <Link to="/home" className="header-button-link">
+  <Link to="/" className="header-button-link">
     <div className="header-button" onClick={firebase.doSignOut}>
       <img className="header-button-img" src={signoutImg} alt="logo"></img>
       <span className="header-button-text">Desconectar</span>
