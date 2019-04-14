@@ -1,43 +1,47 @@
+#SignUpLink {
+    color: #E24E24;
+}
 
-.Login {
+
+.SignUp {
     display: grid;
   }
   
-  .middleLogin {
+  .middleSignUp {
     min-height: 750px;
     background: url("../assets/LoginBackground.png") no-repeat center;
     background-size: cover;
   }
   
-  .vamosAJugarLogin {
+  .vamosAJugarSignUp {
     border-radius: 20px;
     margin: 70px auto 0 100px;
     width: 575px;
-    height: 450px;
+    height: 600px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.4);
     text-align: center;
     padding: 20px;
   }
   
-  .login-title {
+  .signUp-title {
     color: rgba(0,143,149,1);
     font-size: 54px;
     font-family: 'Luckiest Guy', cursive;
   }
 
   
-.loginBox {
+.signUpBox {
     text-align: center;
     padding: 20px 100px;
   }
 
-  .login-logo {
+  .signUp-logo {
     align-self: center;
     height: 50px;
   }
 
-  .emailBox {
+  .emailBoxSignUp {
     border-radius: 25px;
     border: 2px solid #E24E24;
     padding: 20px; 
@@ -49,10 +53,10 @@
   }
 
 
-  .SignInButton{
+  .SignUpButton{
     border-radius: 10px;
     border: 2px solid #E24E24;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 10px;
     width: 300px;
     height: 70px;   
@@ -65,9 +69,20 @@
   }
 
 
-  .SignInButton-text{
+  .SignUpButton-text{
     font-weight: 5px;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
       font-family: 'Luckiest Guy', cursive;
+  }
+
+  #passwordFirst {
+      float: center;
+      width: 170px;
+      margin-right: 10px;
+  }
+
+  #passwordTwo {
+      float: center;
+      width: 170px;
   }

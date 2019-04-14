@@ -3,9 +3,11 @@ import { Link, withRouter } from 'react-router-dom';
 import { withFirebase } from '../constants/Firebase';
 import * as ROUTES from '../constants/Routes';
 
+import './SignUp.scss';
+import logoColor from '../assets/aprendiCODEColor.png';
+
 const SignUp = () => (
   <div>
-    <h1>SignUp</h1>
     <SignUpForm />
   </div>
 );
@@ -72,52 +74,77 @@ class SignUpFormBase extends Component {
       username === '';
 
     return (
+      <div className="SignUp">
+      <div className="middleSignUp">
+        <div className="vamosAJugarSignUp">
+          <div className="signUpBox">
+        <span className="signUp-title"><img className="signUp-logo" src={logoColor} alt="logo"></img></span>
+        </div>
       <form onSubmit={this.onSubmit}>
           <input
+          className= "emailBoxSignUp"
           name="name"
           value={name}
           onChange={this.onChange}
           type="text"
           placeholder="Name"
         />
+        <p></p>
         <input
+          className = "emailBoxSignUp"
           name="username"
           value={username}
           onChange={this.onChange}
           type="text"
           placeholder="Username"
         />
+        <p></p>
         <input
+          className="emailBoxSignUp"
           name="email"
           value={email}
           onChange={this.onChange}
           type="text"
           placeholder="Email Address"
         />
+        <p></p>
+   
         <input
+          id= "passwordFirst"
+          className= "emailBoxSignUp"
           name="passwordOne"
           value={passwordOne}
           onChange={this.onChange}
           type="password"
           placeholder="Password"
         />
+     
         <input
+          id= "passwordTwo"
+          className="emailBoxSignUp"
           name="passwordTwo"
           value={passwordTwo}
           onChange={this.onChange}
           type="password"
           placeholder="Confirm Password"
         />
-        <button disabled={isInvalid} type="submit">Sign Up</button>
+     
+    
+        <button className = "SignUpButton" disabled={isInvalid} type="submit">
+        <span className="SignUpButton-text">Registrate</span>
+          </button>
 
         {error && <p>{error.message}</p>}
       </form>
+      </div>
+        </div>
+      </div>
     );
   }
 }
 
 const SignUpLink = () => (
-  <p>
+  <p id= "SignUpLink">
     Don't have an account? <Link to={ROUTES.SIGNUP}>Sign Up</Link>
   </p>
 );

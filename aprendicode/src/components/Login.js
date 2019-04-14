@@ -58,9 +58,9 @@ class SignInFormBase extends Component {
             <div className="loginBox">
           <span className="login-title"><img className="login-logo" src={logoColor} alt="logo"></img></span>
           </div>
-          <form onSubmit={this.onSubmit}>
+    <form onSubmit={this.onSubmit}>
         <input
-          id ="emailBox"
+          className ="emailBox"
           name="email"
           value={email}
           onChange={this.onChange}
@@ -69,7 +69,7 @@ class SignInFormBase extends Component {
         />
         <p></p>
         <input
-          id= "emailBox"
+          className= "emailBox"
           name="password"
           value={password}
           onChange={this.onChange}
@@ -77,8 +77,8 @@ class SignInFormBase extends Component {
           placeholder="Password"
         />
         <p></p>
-        <button disabled={isInvalid} type="submit">
-          Sign In
+        <button className = "SignInButton" disabled={isInvalid} type="submit">
+          <span className= "SignInButton-text">Iniciar</span>
         </button>
 
         {error && <p>{error.message}</p>}
