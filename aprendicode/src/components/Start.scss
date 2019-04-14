@@ -7,7 +7,34 @@
   min-height: 500px;
   background: url("../assets/startBackground.png") no-repeat center;
   background-size: cover;
-  padding: 50px;
+  padding: 20px 50px 50px 50px;
+}
+
+.start-continue-box {
+    display: grid;
+    
+}
+
+.start-continue-link {
+    margin: auto;
+    text-decoration: none;
+}
+
+.start-continue-button {
+    color: white;
+    margin: auto;
+    background: #E24E24;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+    font-family: 'Luckiest Guy', cursive !important;
+    font-size: 25px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    &:hover {
+        background: rgb(241, 102, 63);
+    }
 }
 
 .start-cards {
@@ -137,6 +164,18 @@
     width: 160px !important;
     font-size: 20px !important;
     font-family: 'Luckiest Guy', cursive !important;
+    display: grid;
+    background-color: rgb(228, 95, 58);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    &:hover {
+        background: rgb(240, 109, 72);
+    }
+}
+
+.start-card-button-text {
+    margin: auto;
 }
 
 .start-card-button-wrap {
