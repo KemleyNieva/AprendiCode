@@ -87,7 +87,7 @@ class SignUpFormBase extends Component {
           value={name}
           onChange={this.onChange}
           type="text"
-          placeholder="Name"
+          placeholder="Nombre y Apellido"
         />
         <p></p>
         <input
@@ -96,7 +96,7 @@ class SignUpFormBase extends Component {
           value={username}
           onChange={this.onChange}
           type="text"
-          placeholder="Username"
+          placeholder="Nombre de Usario"
         />
         <p></p>
         <input
@@ -105,7 +105,7 @@ class SignUpFormBase extends Component {
           value={email}
           onChange={this.onChange}
           type="text"
-          placeholder="Email Address"
+          placeholder="Correo Electronico"
         />
         <p></p>
    
@@ -116,7 +116,7 @@ class SignUpFormBase extends Component {
           value={passwordOne}
           onChange={this.onChange}
           type="password"
-          placeholder="Password"
+          placeholder="Contraseña"
         />
      
         <input
@@ -126,7 +126,7 @@ class SignUpFormBase extends Component {
           value={passwordTwo}
           onChange={this.onChange}
           type="password"
-          placeholder="Confirm Password"
+          placeholder="Confirma Contraseña"
         />
      
     
@@ -145,7 +145,7 @@ class SignUpFormBase extends Component {
 
 const SignUpLink = () => (
   <p id= "SignUpLink">
-    Don't have an account? <Link to={ROUTES.SIGNUP}>Sign Up</Link>
+    No tienes una cuenta? <Link to={ROUTES.SIGNUP}>Registrate aquí</Link>
   </p>
 );
 
