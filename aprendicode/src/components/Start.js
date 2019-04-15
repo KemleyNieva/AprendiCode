@@ -1,17 +1,32 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-
+import {withFirebase} from '../constants/Firebase';
+import { AuthUserContext } from '../constants/Session';
+import { withRouter } from 'react-router-dom';
+import * as ROUTES from '../constants/Routes';
 import './Start.scss';
 
 
 
-export class Start extends React.Component {
+ class StartBase extends React.Component {
     constructor(props) {
         super(props);
         this.state = {isToggleOn: true};
     
         // This binding is necessary to make `this` work in the callback
         this.reloadDataCamp = this.reloadDataCamp.bind(this);
+      }
+
+      componentDidMount() {
+        this.listener = this.props.firebase.auth.onAuthStateChanged(authUser => {
+            if ((!authUser)) {
+                this.props.history.push(ROUTES.LOGIN);
+              }
+        });
+      }
+
+      componentWillUnmount(){
+        this.listener();
       }
     
       reloadDataCamp() {
@@ -24,7 +39,10 @@ export class Start extends React.Component {
     
     render() {
         return (
-            <div className="home">
+            <div> <AuthUserContext.Consumer>
+            {authUser =>
+              authUser ? 
+              <div className="home">
                 <div className="start">
                     <div className="start-continue-box">
                         <Link to="/lesson11" className="start-continue-link">
@@ -63,6 +81,15 @@ export class Start extends React.Component {
                     </div>
                 </div>
             </div>
+              : null 
+            }
+          </AuthUserContext.Consumer></div>
         );
     }
 }
+
+const Start = withRouter(withFirebase(StartBase));
+
+export {Start };
+
+

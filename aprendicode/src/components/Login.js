@@ -38,7 +38,7 @@ class SignInFormBase extends Component {
       .catch(error => {
         this.setState({ error });
       });
-    console.log(this.state);
+    
     event.preventDefault();
   };
 
