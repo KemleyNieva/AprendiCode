@@ -77,9 +77,15 @@
     margin-bottom: 0;
 }
 
+// .lesson-info-data {
+// overflow-y: scroll;
+// overflow-x: hidden;
+// height: 300px;
+// }
+
 .lesson-info-text {
     overflow-y: scroll;
-
+    height: 258px;
     & p {
         margin: 5px 0 !important;
     }
